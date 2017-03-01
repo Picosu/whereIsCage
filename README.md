@@ -17,4 +17,10 @@ Installer tailor dans votre projet automatiquement :
 tailor --xcode /path/to/demo.xcodeproj/
 Cela devrait créer un script dans le projet Xcode.
 
+Install homebrew
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+If getting error 
+"	activesupport requires Ruby version >= 2.2.2."
+then you should run the following command:
+brew install ruby
